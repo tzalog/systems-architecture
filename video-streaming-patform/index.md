@@ -2,6 +2,9 @@
 
 ![Diagram 1](architecture.png)
 
+[![Watch on YouTube](https://img.youtube.com/vi/IophnFVg914/hqdefault.jpg)](https://www.youtube.com/watch?v=IophnFVg914)
+
+
 This document outlines the high-level architecture for the PeerTube-based streaming platform deployed on AWS, optimized for global performance and scalability using a CDN-first approach.
 
 ## Architecture Diagram Overview
@@ -24,3 +27,4 @@ The system is designed to handle high-concurrency video streaming by offloading 
 - **Offloaded Storage**: Using S3 for video storage removes the disk I/O bottleneck from the application servers, allowing them to focus on processing requests and transcoding.
 - **Scalability**: The use of an Auto Scaling Group and RDS allows the platform to grow horizontally as the user base and video library expand.
 - **Federation Ready**: The architecture supports PeerTube's ActivityPub-based federation, ensuring that incoming and outgoing requests from other instances are handled efficiently.
+
