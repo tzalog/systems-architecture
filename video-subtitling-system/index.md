@@ -3,6 +3,8 @@
 ![Diagram 1](video_subtitling_final_architecture.drawio.png)
 ![Diagram 2](architecture_variant_4_highlevel_from_reference.png)
 
+[![Watch on YouTube](https://img.youtube.com/vi/shFRsnOcN6k/hqdefault.jpg)](https://www.youtube.com/watch?v=shFRsnOcN6k)
+
 ## 1. Goal
 
 Build a web application where a user uploads an MP4 movie, selects the target subtitle language, and later receives:
@@ -640,3 +642,4 @@ Possible future improvements:
 - multiple subtitle tracks in one output
 - confidence scoring and manual review for low-confidence jobs
 - additional output formats such as WebVTT and soft subtitle tracks
+
