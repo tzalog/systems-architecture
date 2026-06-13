@@ -2,6 +2,8 @@
 
 ![Diagram 1](architecture.png)
 
+[![Watch on YouTube](https://img.youtube.com/vi/CY9dvVghpxI/hqdefault.jpg)](https://www.youtube.com/watch?v=CY9dvVghpxI)
+
 A proposed **AWS architecture** (MVP → production) for ingesting videos from selected channels, transcribing them with timestamps, and exposing full-text + semantic search over what was said.
 
 ---
